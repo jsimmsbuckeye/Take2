@@ -34,9 +34,29 @@
 }
 .jessepic{
   width:100%;
-
+  padding: 0 !important;
 }
 
+#titlebanner{
+
+  height: 50px;
+  background: rgba(255, 255, 255, 0.25) !important;
+  position: absolute;
+  width:100%;
+  left: 0px;
+  bottom: 0px;
+  z-index: 100;
+  padding: 0px 15px;
+}
+
+@media only screen and (min-width: 990px) {
+  #titlebanner {
+    display: none;  }
+}
+
+.nopadding{
+  padding: 0px;
+}
 #JesseText.col-md-12{
   background: green !important;
   float:right;
